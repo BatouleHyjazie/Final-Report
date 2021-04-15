@@ -1,0 +1,65 @@
+---
+title: "Discarded"
+author: "Batoule Hyjazie"
+date: "05/04/2021"
+output: html_document
+---
+
+### 2.2.1.2 Linear Mixed Model
+
+```{r 2.2.1 Frequentist Approach}
+
+library(lmerTest)
+
+osmiafreq <- lmer(surv.ratio ~ s.type + (1|s.ID), data=Osmia)
+summary(osmiafreq)
+```
+
+Firstly, based on the scaled residuals of the first model that was run, it is obvious that the distribution is not Gaussian. Because of this, we will need to run a generalized linear mixed model.
+
+#### 2.2.1.2.1 Plot of the Data
+
+```{r 2.2.1.2.1 Plot of the Data}
+
+library(ggplot2)
+library(lattice)
+library(tidyverse)
+library(patchwork)
+```
+
+#### 2.2.1.2.2 Testing Distributions
+
+```{r 2.2.1.2.1 Testing Distributions}
+
+ggplot(Osmia, aes(x = s.type, y = log(1 + surv.ratio))) +
+  geom_boxplot() +
+  theme_bw()
+
+Osmia_means <- with(Osmia, tapply(surv.ratio, list(s.type), mean))
+summary(Osmia_means)
+```
+
+```{r}
+library(effects)
+plot(allEffects(osfreqglmm))
+```
+
+```{r 2.2.1.1 Distribution}
+qqp(Osmia$No.surv.osmia/Osmia$No.cells, "norm")
+fitBinom <- fitdist(Osmia$surv.ratio, dist="binom", fix.arg=list(size=219), start=list(prob=0.5))
+qqp(Osmia$surv.ratio, "binom", size=219, prob=0.5, fitBinom$estimate)
+```
+
+```{r 2.2.1.1 GLMM Simple, include = FALSE}
+osmiaglmm <- glmer(No.surv.osmia/No.cells ~ s.type + (1|s.ID), weights = No.cells, family = binomial(link="logit"), data=Osmia)
+summary(osmiaglmm)
+overdisp.glmer(osmiaglmm)
+```
+
+```{r 3.2.1.1 Key Assumptions Box Plot Residual Plot, fig.cap="\\label{fig:figs}Residuals versus Fitted Values of Final Osmia Survival Model"}
+boxplot(resid.weed_pois~trmt,data=rcbd, main="Homogeneity of Residual Variance by Treatment Group", xlab="Treatment Groups", ylab="Residuals")
+```
+
+### 2.1.1 Total Nesting Structures
+
+**The "Total Nesting Structures.xlsx" data set contains all of the information regarding the species that occupied the nest blocks but does not include any information on the survival of these species. This data set is useful because it provides information on the number of nests that were installed in each site and each site type. A variety of hymenopterans nested within the nesting structures including wasps (genus unknown), bees such as *Megachile* spp. and of course numerous *Osmia* spp. For the purposes of this analysis, we will focus on *Osmia* spp. offspring survival.**
