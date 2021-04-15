@@ -63,3 +63,16 @@ boxplot(resid.weed_pois~trmt,data=rcbd, main="Homogeneity of Residual Variance b
 ### 2.1.1 Total Nesting Structures
 
 **The "Total Nesting Structures.xlsx" data set contains all of the information regarding the species that occupied the nest blocks but does not include any information on the survival of these species. This data set is useful because it provides information on the number of nests that were installed in each site and each site type. A variety of hymenopterans nested within the nesting structures including wasps (genus unknown), bees such as *Megachile* spp. and of course numerous *Osmia* spp. For the purposes of this analysis, we will focus on *Osmia* spp. offspring survival.**
+
+```{r 3.2.1 Analysis of Deviance Table (Type III Wald Chisquare Test)}
+
+# Output from summary glmm is anti-conservative so we use a wald test p-values which are not as strongly biased as the z-test from the summary
+library(car)
+ #No intercept, testing if fixed effect reduces amount of residual variation (fitting a model with no parameter and comparing with the parameter of interest) You compare the deviance between the two and get an estimate of the p-values. The intercept is an estimate it doesn't explain any variance (knowing if the intercept differs from 0 is not important info0, will tell you if the different levels within a factor different from one another)
+```
+
+```{r 3.2.1 Frequentist Results Tables}
+
+plot_model(osmiaglmm, type = "eff", show.intercept = TRUE, show.legend = TRUE, colors = "lightblue")
+plot_model(osmiaglmm, type = "diag", show.intercept = TRUE, show.data = TRUE, show.legend = TRUE, colors = "Set2")
+```
