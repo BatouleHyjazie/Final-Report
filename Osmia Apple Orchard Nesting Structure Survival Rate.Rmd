@@ -54,7 +54,7 @@ Throughout these 4 months, various insects, mostly wasps and bees, inhabited the
 library(readxl)
 ```
 
-```{r 2.2 Osmia Survival}
+```{r 2.2 Data Set Osmia Survival}
 
 Osmia <- read_excel("Osmia Survival.xlsx")
 Osmia <- as.data.frame(Osmia)
@@ -191,7 +191,7 @@ library(readxl)
 library(ggplot2)
 ```
 
-```{r 3.1 General Results}
+```{r 3.1 General Results Data Set}
 
 TNS <- read_excel("Total Nesting Structures.xlsx")
 
@@ -218,11 +218,10 @@ Osmia.surv.plot + scale_x_discrete(labels=c("n"="Natural Sites", "o"= "Orchard S
 
 In both the frequentist and bayesian approaches, we reach similar statistical results: 
 
-
-
 ### 3.2.1 Frequentist Results
 
 ```{r 3.2.1 Frequentist Results Packages}
+
 library(jtools)
 library(lmtest)
 library(sjPlot)
@@ -271,7 +270,6 @@ export_summs(osmiaglmm, osmiaglmmtest, osmiaglm, error_format = "(CI [{conf.low}
              model.names = c("Final GLMM", "Un-Nested GLMM", "GLM"), coefs = c("Intercept" = "(Intercept)", "Orchard Site Type" = "s.typeo"))
 ```
 
-
 ```{r 3.2.1.1 Key Assumptions Wald Chi-Square Test GLMM vs GLMM Nested, echo = TRUE}
 
 Osmiaglmmvtest <- anova(osmiaglmm, osmiaglmmtest)
@@ -289,7 +287,7 @@ min(tt[ll==0])
 
 When looking at the issue of over-dispersion, we find that the GLM had a deviance of 572.27 over 217 degrees of freedom. The simpler GLMM with one random effect had issues of under-dispersion with a residual deviance of 108.10 over 216 degrees of freedom. The nested GLMM had a deviance of 413.40 over 215 degrees of freedom. The final GLMM model with block ID nested within site ID as a random effect had a ratio of deviance to degrees of freedom of 1.9, close to the accepted value of 1. 
 
-```{r 3.2.1.1 Key Assumptions Osmia Overdispersion Tests, echo = TRUE}
+```{r 3.2.1.1 Osmia Overdispersion Tests, echo = TRUE}
 
 summary(osmiaglm)
 overdisp.glmer(osmiaglmmtest)
