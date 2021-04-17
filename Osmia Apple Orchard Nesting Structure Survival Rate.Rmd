@@ -84,9 +84,9 @@ library(car)
 
 To explore frequentist and bayesian statistics, as an exercise, I will be running the same model using these two different approaches. Due to differences in code structure, the response for the frequentist approach will be written as ratio (*No.surv.osmia/No.cells*) while the bayesian approach will be written as a combined column (*cbind(No.surv.osmia, No.death)*). The random effects of each approach will be the same (block ID nested within site ID).
 
-Because the response that is measured is the proportion of surviving Osmia offspring, the data will is not normally distributed but binomially distributed. This was verified using both a histogram (***Figure\_***) of the distribution of the frequency of *Osmia* spp. survival ratios and a q-q plot (***Figure\_***). Thus, all models will be run using a binomial distribution.
+Because the response that is measured is the proportion of surviving Osmia offspring, the data will is not normally distributed but binomially distributed. This was verified using both a histogram (***Figure 2a***) of the distribution of the frequency of *Osmia* spp. survival ratios and a q-q plot (***Figure 2b***). Thus, all models will be run using a binomial distribution.
 
-```{r 2.2 Statistical Methods Normality, fig.cap="\\label{fig:figs}Normality Tests of *Osmia* spp. survival ratio a) Histogram and b) Q-Q Plot"}
+```{r 2.2 Statistical Methods Normality, results = FALSE, fig.cap="\\label{fig:figs}Normality Tests of *Osmia* spp. survival ratio a) Histogram and b) Q-Q Plot"}
 
 layout(mat = matrix(c(2, 1), 
                         nrow = 1, 
@@ -368,7 +368,7 @@ HPDVCV
 
 Similar to the frequentist results, we find that there is not enough evidence from the data collected to show that site type has an effect on *Osmia* spp. survival since the credible interval [-0.79, 1.02] overlaps 0. This can also be surmised from ***Figure 6***.
 
-```{r 3.2.2 Bayesian Results Inference Figure Using RStan, include = FALSE}
+```{r 3.2.2 Bayesian Results Inference Figure Using RStan Prep, include = FALSE}
 
 fit <- stan_glmer(cbind(No.surv.osmia, No.death) ~ s.type + (1|s.ID) + (1|Block_ID:s.ID),
     family = "binomial", data = as.data.frame(Osmia))
@@ -463,9 +463,14 @@ While further investigation is needed, this could possibly indicate that the ins
 library(simr, warn.conflicts = FALSE)
 ```
 
-Because the hierarchical nature of the data was acknowledged, I was able to avoid issues of autocorrelation within the data structure and issues of non-independent residuals which will lead to an increased rate of false positives [@mcneish2014]. However, it must be acknowledged that the number of sites visited in the orchard and natural habitat types is very small (7 and 8, respectively), which overall, leads to bias in the results. It is typically recommended to have a minimum cluster sample size of 30 which is well below the 15 sites or clusters from this data set. Some authors even argue that mixed models become potentially untrustworthy with small sample sizes and should not be run if cluster sizes are below 10 [@mcneish2014]. A power analysis using the *simr* package shows that the power to reject the null hypothesis of no effect of site type on *Osmia* survival given this particular set-up is 6.10% which is very low especially when considering that most studies aim for a power of 80% [@green2016]. This low power is most likely due to a small sample size.
+Because the hierarchical nature of the data was acknowledged, I was able to avoid issues of autocorrelation within the data structure and issues of non-independent residuals which will lead to an increased rate of false positives [@mcneish2014]. However, it must be acknowledged that the number of sites visited in the orchard and natural habitat types is very small (7 and 8, respectively), which overall, leads to bias in the results. It is typically recommended to have a minimum cluster sample size of 30 which is well below the 15 sites or clusters from this data set. Some authors even argue that mixed models become potentially untrustworthy with small sample sizes and should not be run if cluster sizes are below 10 [@mcneish2014]. A power analysis using the *simr* package shows that the power to reject the null hypothesis of no effect of site type on *Osmia* survival given this particular set-up is 5.6% which is very low especially when considering that most studies aim for a power of 80% [@green2016]. This low power is most likely due to a small sample size.
 
-`osmia_sim <- powerSim(osmiaglmm, nsim=1000) osmia_sim`
+`osmia_sim <- powerSim(osmiaglmm, nsim=1000)`
+
+| Power for Site Type                             |
+|-------------------------------------------------|
+| 5.60%                                           |
+| Based on 1000 simulations, alpha = 0.05, n =219 |
 
 When it comes to a critique of the data, it would have been informative to have more data relating to the cause of death since having this value as a fixed effect would have accounted for some of the over-dispersion detected in the final GLMM. Controlling for cause of death would have also helped with recognizing overarching factors in larval mortality that are not necessarily related to habitat type but rather to normal threats to larval development common across all landscapes. This would have helped with pinpointing the true differences among habitat types which can be overshadowed by these potentially common observable factors. From a different perspective, it would have also helped to determine whether death due to parasitization is more common in orchard habitat types or natural habitat types since this could give some by-proxy insight into parasite population densities.
 
