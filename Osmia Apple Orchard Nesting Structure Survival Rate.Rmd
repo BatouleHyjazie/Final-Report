@@ -71,9 +71,9 @@ Osmia$Block_ID <- paste0(Osmia$s.ID, Osmia$Block)
 Osmia <- as.data.frame(Osmia)
 ```
 
-The "Osmia Survival.xlsx" data set contains the data that will be used for subsequent statistical analyses. It includes information such as the original number of cells observed in the straw (*No.cells*), the initial perceived number of surviving cells (*No.surv.cells*) as well as a validated revised number of surviving *Osmia* spp. cells (*No.surv.osmia*). The number of *Osmia* spp. cell deaths was calculated as the difference between the number of cells and the revised number of surviving *Osmia* spp. cells (*No.death*).
+The "Osmia Survival.xlsx" file contains the data that will be used for subsequent statistical analyses. It includes information such as the original number of cells observed in the straw (*No.cells*), the initial perceived number of surviving cells (*No.surv.cells*) as well as a validated revised number of surviving *Osmia* spp. cells (*No.surv.osmia*). The number of *Osmia* spp. cell deaths was calculated as the difference between the number of cells and the revised number of surviving *Osmia* spp. cells (*No.death*).
 
-It is important to note that the number of surviving cells does not account for bees that died over winter due to unfavorable storage conditions. Therefore, we are only accounting for deaths of bees that have clearly died as larvae either through parasitization or other un-diagnosed causes. Deaths at the larval stage can only be attributed to causes occurring during the growing season or associated with either orchard or natural conditions. By the developmental stage of adult eclosion, nests were already transferred to a laboratory environment. Any deaths occurring at the adult stage are therefore ignored.
+It is important to note that the number of surviving cells does not account for bees that died over winter due to unfavorable storage conditions. Therefore, we are only accounting for deaths of bees that have clearly died as larvae either through parasitization or other un-diagnosed causes. Deaths at the larval stage can only be attributed to causes occurring during the growing season or associated with either orchard or natural conditions. By the developmental stage of adult eclosion, nests were already transferred to a laboratory environment. Any deaths occurring at the adult stage are ignored.
 
 ## 2.2 Statistical Methods
 
@@ -84,7 +84,7 @@ library(car)
 
 To explore frequentist and bayesian statistics, as an exercise, I will be running the same model using these two different approaches. Due to differences in code structure, the response for the frequentist approach will be written as ratio (*No.surv.osmia/No.cells*) while the bayesian approach will be written as a combined column (*cbind(No.surv.osmia, No.death)*). The random effects of each approach will be the same (block ID nested within site ID).
 
-Because the response that is measured is the proportion of surviving Osmia offspring, the data will is not normally distributed but binomially distributed. This was verified using both a histogram (***Figure 2a***) of the distribution of the frequency of *Osmia* spp. survival ratios and a q-q plot (***Figure 2b***). Thus, all models will be run using a binomial distribution.
+Because the response that is measured is the proportion of surviving Osmia offspring, the data is not normally distributed but binomially distributed. This was verified using both a histogram (***Figure 2a***) of the distribution of the frequency of *Osmia* spp. survival ratios and a q-q plot (***Figure 2b***). Thus, all models will be run using a binomial distribution.
 
 ```{r 2.2 Statistical Methods Normality, results = FALSE, fig.cap="\\label{fig:figs}Normality Tests of *Osmia* spp. survival ratio a) Histogram and b) Q-Q Plot"}
 
@@ -141,9 +141,9 @@ summary(osmiaglmm)
 
 #### 2.2.1.1 Frequentist Key Assumptions
 
-The main assumption of a GLMM, is that the chosen probability distribution and associated link function is appropriate for the data. As previously stated, due to the use of proportional data, the distribution used was binomial and the link function was the logarithm of the odds (logit). Another assumption is that the random effects are normally distributed. Finally, it is assumed that there is no over-dispersion or under-dispersion. This refers to the constancy of the variance and was verified by comparing the ratio of the residual deviance to the degrees of freedom using the *overdisp.glmm* function. A final implicit assumptions of GLMMs as with all model types is to match the model with the data and its structure and to properly identify the fixed versus the random effects.
+The main assumption of a GLMM, is that the chosen probability distribution and associated link function is appropriate for the data. As previously stated, due to the use of proportional data, the distribution used was binomial and the link function was the logarithm of the odds (logit). Another assumption is that the random effects are normally distributed. Finally, it is assumed that there is no over-dispersion or under-dispersion. This refers to the constancy of the variance and was verified by comparing the ratio of the residual deviance to the degrees of freedom using the *overdisp.glmm* function. A final implicit assumptions of GLMMs, as with all model types, is to match the model with the data and its structure and to properly identify the fixed versus the random effects.
 
-To evaluate model fit, a likelihood ratio test using the *drop1* function was conducted. The GLMM and GLM versions of the model output (one with the random effect term of block nested within site and one without) were compared via a likelihood ratio test and also by simply comparing their Aikake Information Criteria (AIC) from their model outputs (*Table\_*). The normality of the random effects was assessed visually using a q-q plot (*Figure\_*). While this is not an explicit assumption of GLMM, the normality of the residuals were evaluated visually using a residuals versus fitted values plot (*Figure\_*).
+To evaluate model fit, a likelihood ratio test using the *drop1* function was conducted. The GLMM and GLM versions of the model output (one with the random effect term of block nested within site and one without) were compared via a likelihood ratio test and also by simply comparing their Aikake Information Criteria (AIC) from their model outputs. The normality of the random effects was assessed visually using a q-q plot (***Figure 5***). While this is not an explicit assumption of GLMM, the normality of the residuals were evaluated visually using a residuals versus fitted values plot (***Figure 4***).
 
 ### 2.2.2 Bayesian Approach
 
@@ -225,7 +225,7 @@ library(sjPlot)
 library(gridExtra)
 ```
 
-Following the GLMM, in ***Figure 2***, we see that orchard sites do not have a significant effect on *Osmia* spp. survival (p = 0.883) and that as a result, there is no difference among survival ratios in orchard sites when compared to natural sites. This applies not only to the GLMM ouput in ***Figure 2a*** but also the means of the raw data in ***Figure 2b***.
+Following the GLMM, in ***Figure 2***, we see that orchard sites do not have a significant effect on *Osmia* spp. survival (p = 0.883) and that as a result, there is no detectable difference among survival ratios in orchard sites when compared to natural sites. This applies not only to the GLMM ouput in ***Figure 2a*** but also the means of the raw data in ***Figure 2b***.
 
 ```{r 3.2.1.1 Frequentist Results GLMM Figure Preparation, include = FALSE}
 
@@ -403,7 +403,7 @@ library(mcmcr)
 library(plotMCMC)
 ```
 
-From a visual assessment of the posterior trace and density plots of the first chain (**Figures 7 and 8**), there was high evidence of autocorrelation and variability, especially for the random effects. There was also some degree of autocorrelation since most lag iterations had autocorrelation values exceeding 0.1. Moreover, the *raftery.diag* function recommended a sample size of at least 3,746. To remedy this, for the second and final chain, sample size was increased from 1,000 to 4,000, number of iterations was increased from 13,000 to 2,020,000 and priors were adjusted (V=1, nu=1).
+From a visual assessment of the posterior trace and density plots of the first chain (***Figures 7 and 8***), there was high evidence of autocorrelation and variability, especially for the random effects. There was also some degree of autocorrelation since most lag iterations had autocorrelation values exceeding 0.1. Moreover, the *raftery.diag* function recommended a sample size of at least 3,746. To remedy this, for the second and final chain, sample size was increased from 1,000 to 4,000, number of iterations was increased from 13,000 to 2,020,000 and priors were adjusted (V=1, nu=1).
 
 ```{r 3.2.2.1 Bayesian Key Assumptions Initial Chain Plot Fixed Effects, fig.cap="\\label{fig:figs}Initial Posterior MCMC Trace and Distribution of the Fixed Effects"}
 
@@ -422,7 +422,7 @@ autocorr.diag(osmiabayes$VCV)
 raftery.diag(osmiabayes)
 ```
 
-A visual assessment of the modified posterior trace and density plots (**Figures 9 and 10**) show that there is no identifiable pattern in the chain as what was evident in the first chain and much less proof of autocorrelation.
+A visual assessment of the modified posterior trace and density plots (***Figures 9 and 10***) show that there is no identifiable pattern in the chain as what was evident in the first chain and much less proof of autocorrelation.
 
 ```{r 3.2.2.1 Bayesian Key Assumptions Final Chain Plot Fixed Effects, fig.cap="\\label{fig:figs}Final Posterior MCMC Trace and Distribution of the Fixed Effects"}
 
