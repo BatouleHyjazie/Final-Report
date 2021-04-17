@@ -76,3 +76,9 @@ library(car)
 plot_model(osmiaglmm, type = "eff", show.intercept = TRUE, show.legend = TRUE, colors = "lightblue")
 plot_model(osmiaglmm, type = "diag", show.intercept = TRUE, show.data = TRUE, show.legend = TRUE, colors = "Set2")
 ```
+
+```{r Frequentist Results GLMM Figure, fig.cap="\\label{fig:figs}*Osmia* spp. survival versus habitat type using GLMM Estimates"}
+
+plot_model(osmiaglmm, show.p = TRUE, vline = "lightblue", show.intercept = TRUE, colors = "blue", title = "", axis.labels = c("Orchard Sites", "Intercept"))
+```
+

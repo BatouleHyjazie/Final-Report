@@ -1,0 +1,1132 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  17 APR 2021 12:36
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate.tex
+(./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (/Users/batoulehyjazieii/Library/TinyTeX/texm
+f-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.s
+ty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+For additional information on amsmath, use the `?' option.
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.s
+ty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.st
+y
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen139
+))
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.st
+y
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.st
+y
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count187
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count188
+\leftroot@=\count189
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count190
+\DOTSCASE@=\count191
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
+\dotsspace@=\muskip16
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks16
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks17
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.
+sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts
+.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.s
+ty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.
+sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
+y
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/colo
+r.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdft
+ex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref
+.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds
+.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdft
+excmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwa
+rerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.s
+ty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvset
+keys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kv
+definekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfes
+cape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.s
+ty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/letlt
+xmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.s
+ty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptio
+ns.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen148
+\Hy@linkcounter=\count199
+\Hy@pagecounter=\count266
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.d
+ef
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref
+-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc
+.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcm
+ds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count267
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.de
+f
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count268
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen149
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.s
+ty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigi
+ntcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count269
+\Field@Width=\dimen150
+\Fld@charsize=\dimen151
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx
+.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count270
+\c@Item=\count271
+\c@Hfootnote=\count272
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.
+def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-lt
+x.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count273
+\c@bookmark@seq@number=\count274
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/re
+runfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/u
+niquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip52
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry
+.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.st
+y
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count275
+\Gm@cntv=\count276
+\c@Gm@tempcnt=\count277
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
+\Gm@dimlist=\toks23
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb
+.sty
+Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count278
+\FV@InFile=\read2
+\FV@TabBox=\box49
+\c@FancyVerbLine=\count279
+\FV@StepNumber=\count280
+\FV@OutFile=\write3
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip53
+\fb@frw=\dimen160
+\fb@frh=\dimen161
+\FrameRule=\dimen162
+\FrameSep=\dimen163
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.s
+ty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count281
+\LTcapwidth=\dimen164
+\LT@head=\box50
+\LT@firsthead=\box51
+\LT@foot=\box52
+\LT@lastfoot=\box53
+\LT@cols=\count282
+\LT@rows=\count283
+\c@LT@tables=\count284
+\c@LT@chunks=\count285
+\LT@p@ftn=\toks24
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs
+.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen165
+\lightrulewidth=\dimen166
+\cmidrulewidth=\dimen167
+\belowrulesep=\dimen168
+\belowbottomsep=\dimen169
+\aboverulesep=\dimen170
+\abovetopsep=\dimen171
+\cmidrulesep=\dimen172
+\cmidrulekern=\dimen173
+\defaultaddspace=\dimen174
+\@cmidla=\count286
+\@cmidlb=\count287
+\@aboverulesep=\dimen175
+\@belowrulesep=\dimen176
+\@thisruleclass=\count288
+\@lastruleclass=\count289
+\@thisrulewidth=\dimen177
+) (/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen178
+\ar@mcellbox=\box54
+\extrarowheight=\dimen179
+\NC@list=\toks25
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box55
+) (/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count290
+\calc@Bcount=\count291
+\calc@Adimen=\dimen180
+\calc@Bdimen=\dimen181
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count292
+\calc@Cskip=\skip62
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox
+.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count293
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote
+.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box56
+\fn@width=\dimen182
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx
+.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics
+.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/grap
+hics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen183
+\Gin@req@width=\dimen184
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow
+.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip63
+\multirow@cntb=\count294
+\multirow@dima=\skip64
+\bigstrutjot=\dimen185
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.s
+ty
+\wrapoverhang=\dimen186
+\WF@size=\dimen187
+\c@WF@wrappedlines=\count295
+\WF@box=\box57
+\WF@everypar=\toks26
+Package: wrapfig 2003/01/31  v 3.6
+) (/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count296
+\float@exts=\toks27
+\float@box=\box58
+\@float@everytoks=\toks28
+\@floatcapt=\box59
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl
+.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks29
+\minrowclearance=\skip65
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflsca
+pe.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/graphics/lscape.s
+ty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) (/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth
+.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box60
+\sift@deathcycles=\count297
+\@vwid@loff=\dimen188
+\@vwid@roff=\dimen189
+)
+\c@taburow=\count298
+\tabu@nbcols=\count299
+\tabu@cnt=\count300
+\tabu@Xcol=\count301
+\tabu@alloc=\count302
+\tabu@nested=\count303
+\tabu@target=\dimen190
+\tabu@spreadtarget=\dimen191
+\tabu@naturalX=\dimen192
+\tabucolX=\dimen193
+\tabu@Xsum=\dimen194
+\extrarowdepth=\dimen195
+\abovetabulinesep=\dimen196
+\belowtabulinesep=\dimen197
+\tabustrutrule=\dimen198
+\tabu@thebody=\toks30
+\tabu@footnotes=\toks31
+\tabu@box=\box61
+\tabu@arstrutbox=\box62
+\tabu@hleads=\box63
+\tabu@vleads=\box64
+\tabu@cellskip=\skip66
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/threeparttable/th
+reeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box65
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/threeparttablex/t
+hreeparttablex.sty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/environ/environ.s
+ty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/trimspaces/trimsp
+aces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip67
+) (/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box66
+\UL@hyphenbox=\box67
+\UL@skip=\skip68
+\UL@hook=\toks32
+\UL@height=\dimen199
+\UL@pe=\count304
+\UL@pixel=\dimen256
+\ULC@box=\box68
+Package: ulem 2019/11/18
+\ULdepth=\dimen257
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/makecell/makecell
+.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen258
+\c@nlinenum=\count305
+\TeXr@lab=\toks33
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.s
+ty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.
+sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen259
+\captionmargin@=\dimen260
+\captionwidth=\dimen261
+\caption@tempdima=\dimen262
+\caption@indent=\dimen263
+\caption@parindent=\dimen264
+\caption@hangindent=\dimen265
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count306
+\c@continuedfloat=\count307
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/caption/ltcaption
+.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/siunitx/siunitx.s
+ty
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.st
+y
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backe
+nd-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count308
+\l__pdf_internal_box=\box69
+))
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse
+/xparse.sty
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse
+/xparse-2020-10-01.sty
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse
+/xparse-generic.tex)))
+Package: siunitx 2021-04-09 v2.8d A comprehensive (SI) units package
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys
+2e/l3keys2e.sty
+Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box70
+\l__siunitx_tmp_dim=\dimen266
+\l__siunitx_tmp_int=\count309
+\l__siunitx_number_mantissa_length_int=\count310
+\l__siunitx_number_uncert_length_int=\count311
+\l__siunitx_round_int=\count312
+\l__siunitx_process_decimal_int=\count313
+\l__siunitx_process_uncertainty_int=\count314
+\l__siunitx_process_fixed_int=\count315
+\l__siunitx_process_integer_min_int=\count316
+\l__siunitx_process_precision_int=\count317
+\l__siunitx_group_min_int=\count318
+\l__siunitx_angle_marker_box=\box71
+\l__siunitx_angle_unit_box=\box72
+\l__siunitx_angle_marker_dim=\dimen267
+\l__siunitx_angle_unit_dim=\dimen268
+\l__siunitx_unit_int=\count319
+\l__siunitx_unit_denominator_int=\count320
+\l__siunitx_unit_numerator_int=\count321
+\l__siunitx_unit_prefix_int=\count322
+\l__siunitx_unit_prefix_base_int=\count323
+\l__siunitx_unit_prefix_gram_int=\count324
+\l__siunitx_number_product_int=\count325
+\c__siunitx_one_fill_skip=\skip69
+\l__siunitx_table_unit_align_skip=\skip70
+\l__siunitx_table_exponent_dim=\dimen269
+\l__siunitx_table_integer_dim=\dimen270
+\l__siunitx_table_mantissa_dim=\dimen271
+\l__siunitx_table_marker_dim=\dimen272
+\l__siunitx_table_result_dim=\dimen273
+\l__siunitx_table_uncert_dim=\dimen274
+\l__siunitx_table_fill_pre_dim=\dimen275
+\l__siunitx_table_fill_post_dim=\dimen276
+\l__siunitx_table_fill_mid_dim=\dimen277
+\l__siunitx_table_pre_box=\box73
+\l__siunitx_table_post_box=\box74
+\l__siunitx_table_mantissa_box=\box75
+\l__siunitx_table_result_box=\box76
+\l__siunitx_table_number_align_skip=\skip71
+\l__siunitx_table_text_align_skip=\skip72
+) (/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/tools/hhline.st
+y
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/tools/tabularx.st
+y
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen278
+\TX@old@table=\dimen279
+\TX@old@col=\dimen280
+\TX@target=\dimen281
+\TX@delta=\dimen282
+\TX@cols=\count326
+\TX@ftn=\toks34
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/adjustbox/adjustb
+ox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.s
+ty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval
+.tex
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutil
+s.tex
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
+)
+\XKV@depth=\count327
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/adjustbox/adjcalc
+.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/adjustbox/trimcli
+p.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/collectbox/collec
+tbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box77
+)
+\tc@llx=\dimen283
+\tc@lly=\dimen284
+\tc@urx=\dimen285
+\tc@ury=\dimen286
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/adjustbox/tc-pdft
+ex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen287
+\adjbox@Height=\dimen288
+\adjbox@Depth=\dimen289
+\adjbox@Totalheight=\dimen290
+\adjbox@pwidth=\dimen291
+\adjbox@pheight=\dimen292
+\adjbox@pdepth=\dimen293
+\adjbox@ptotalheight=\dimen294
+)
+\cslhangindent=\skip73
+\csllabelwidth=\skip74
+(./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate.aux
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+
+LaTeX Warning: Label `fig:figs' multiply defined.
+
+)
+\openout1 = `Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epst
+opdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epsto
+pdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring OFF on input line 162.
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.
+sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount
+.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/
+gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count328
+)
+LaTeX Info: Redefining \ref on input line 162.
+LaTeX Info: Redefining \pageref on input line 162.
+LaTeX Info: Redefining \nameref on input line 162.
+(./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate.out) (./Osmia-Apple-Orch
+ard-Nesting-Structure-Survival-Rate.out)
+\@outlinefile=\write4
+\openout4 = `Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate.out'.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/siunitx/siunitx-a
+bbreviations.cfg
+File: siunitx-abbreviations.cfg 2021-04-09 v2.8d siunitx: Abbreviated units
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+62.
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+62.
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+162.
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+162.
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 162.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 162.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 162.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 162
+.
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 162
+.
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+162.
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+162.
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 164.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 164.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 164.
+<Osmia.png, id=96, 357.9774pt x 478.4274pt>
+File: Osmia.png Graphic file (type png)
+<use Osmia.png>
+Package pdftex.def Info: Osmia.png  used on input line 193.
+(pdftex.def)             Requested size: 357.98196pt x 478.43352pt.
+[1
+
+{/Users/batoulehyjazieii/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdft
+ex.map}] [2 <./Osmia.png>] [3]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+10.
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+<Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/2.2 Sta
+tistical Methods Normality-1.pdf, id=128, 437.635pt x 286.06876pt>
+File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/2.
+2 Statistical Methods Normality-1.pdf Graphic file (type pdf)
+<use Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/2.2
+ Statistical Methods Normality-1.pdf>
+Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
+les/figure-latex/2.2 Statistical Methods Normality-1.pdf  used on input line 31
+6.
+(pdftex.def)             Requested size: 437.6406pt x 286.07242pt.
+[4 <./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/2.
+2 Statistical Methods Normality-1.pdf>] [5] [6] [7] [8] [9] [10] [11] [12] [13]
+[14] [15] [16] [17] [18] [19] [20]
+<Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.1.1
+ Frequentist Results GLMM Figure-1.pdf, id=223, 463.7325pt x 315.1775pt>
+File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
+2.1.1 Frequentist Results GLMM Figure-1.pdf Graphic file (type pdf)
+<use Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2
+.1.1 Frequentist Results GLMM Figure-1.pdf>
+Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
+les/figure-latex/3.2.1.1 Frequentist Results GLMM Figure-1.pdf  used on input l
+ine 1291.
+(pdftex.def)             Requested size: 463.73842pt x 315.18153pt.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+294.
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21] [22 <./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-la
+tex/3.2.1.1 Frequentist Results GLMM Figure-1.pdf>] [23] [24]
+<Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.1.1
+ Key Assumptions Residual Plot-1.pdf, id=259, 436.63126pt x 251.94125pt>
+File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
+2.1.1 Key Assumptions Residual Plot-1.pdf Graphic file (type pdf)
+<use Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2
+.1.1 Key Assumptions Residual Plot-1.pdf>
+Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
+les/figure-latex/3.2.1.1 Key Assumptions Residual Plot-1.pdf  used on input lin
+e 1610.
+(pdftex.def)             Requested size: 436.63019pt x 251.94063pt.
+<Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.1.1
+ Key Assumptions Random Effects Q-Q Plot-1.pdf, id=260, 463.7325pt x 316.18124p
+t>
+File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
+2.1.1 Key Assumptions Random Effects Q-Q Plot-1.pdf Graphic file (type pdf)
+<use Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2
+.1.1 Key Assumptions Random Effects Q-Q Plot-1.pdf>
+Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
+les/figure-latex/3.2.1.1 Key Assumptions Random Effects Q-Q Plot-1.pdf  used on
+ input line 1617.
+(pdftex.def)             Requested size: 463.73842pt x 316.18529pt.
+[25] [26 <./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-la
+tex/3.2.1.1 Key Assumptions Residual Plot-1.pdf> <./Osmia-Apple-Orchard-Nesting
+-Structure-Survival-Rate_files/figure-latex/3.2.1.1 Key Assumptions Random Effe
+cts Q-Q Plot-1.pdf>]
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1747--1747
+[]\T1/lmtt/m/n/10 ## Chain 1: 1000 transitions using 10 leapfrog steps per tran
+sition would take 1.78 seconds.[] 
+ []
+
+
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1747--1747
+[]\T1/lmtt/m/n/10 ## Chain 2: 1000 transitions using 10 leapfrog steps per tran
+sition would take 0.85 seconds.[] 
+ []
+
+[27]
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1747--1747
+[]\T1/lmtt/m/n/10 ## Chain 3: 1000 transitions using 10 leapfrog steps per tran
+sition would take 0.79 seconds.[] 
+ []
+
+
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1747--1747
+[]\T1/lmtt/m/n/10 ## Chain 4: 1000 transitions using 10 leapfrog steps per tran
+sition would take 0.68 seconds.[] 
+ []
+
+<Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.2 B
+ayesian Results Inference Figure Using RStan-1.pdf, id=293, 458.71375pt x 315.1
+775pt>
+File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
+2.2 Bayesian Results Inference Figure Using RStan-1.pdf Graphic file (type pdf)
+
+<use Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2
+.2 Bayesian Results Inference Figure Using RStan-1.pdf>
+Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
+les/figure-latex/3.2.2 Bayesian Results Inference Figure Using RStan-1.pdf  use
+d on input line 1749.
+(pdftex.def)             Requested size: 458.73363pt x 315.19115pt.
+[28]
+<Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.2.1
+ Bayesian Key Assumptions Initial Chain Plot Fixed Effects-1.pdf, id=298, 420.5
+7124pt x 293.095pt>
+File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
+2.2.1 Bayesian Key Assumptions Initial Chain Plot Fixed Effects-1.pdf Graphic f
+ile (type pdf)
+<use Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2
+.2.1 Bayesian Key Assumptions Initial Chain Plot Fixed Effects-1.pdf>
+Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
+les/figure-latex/3.2.2.1 Bayesian Key Assumptions Initial Chain Plot Fixed Effe
+cts-1.pdf  used on input line 1761.
+(pdftex.def)             Requested size: 420.57022pt x 293.09427pt.
+<Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.2.1
+ Bayesian Key Assumptions Initial Chain Plot Random Effects-1.pdf, id=299, 429.
+605pt x 301.125pt>
+File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
+2.2.1 Bayesian Key Assumptions Initial Chain Plot Random Effects-1.pdf Graphic 
+file (type pdf)
+<use Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2
+.2.1 Bayesian Key Assumptions Initial Chain Plot Random Effects-1.pdf>
+Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
+les/figure-latex/3.2.2.1 Bayesian Key Assumptions Initial Chain Plot Random Eff
+ects-1.pdf  used on input line 1768.
+(pdftex.def)             Requested size: 429.61049pt x 301.12885pt.
+[29 <./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3
+.2.2 Bayesian Results Inference Figure Using RStan-1.pdf>] [30 <./Osmia-Apple-O
+rchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.2.1 Bayesian Key 
+Assumptions Initial Chain Plot Fixed Effects-1.pdf> <./Osmia-Apple-Orchard-Nest
+ing-Structure-Survival-Rate_files/figure-latex/3.2.2.1 Bayesian Key Assumptions
+ Initial Chain Plot Random Effects-1.pdf>]
+<Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.2.1
+ Bayesian Key Assumptions Final Chain Plot Fixed Effects-1.pdf, id=336, 418.563
+75pt x 293.095pt>
+File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
+2.2.1 Bayesian Key Assumptions Final Chain Plot Fixed Effects-1.pdf Graphic fil
+e (type pdf)
+<use Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2
+.2.1 Bayesian Key Assumptions Final Chain Plot Fixed Effects-1.pdf>
+Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
+les/figure-latex/3.2.2.1 Bayesian Key Assumptions Final Chain Plot Fixed Effect
+s-1.pdf  used on input line 1832.
+(pdftex.def)             Requested size: 418.56271pt x 293.09427pt.
+<Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.2.1
+ Bayesian Key Assumptions Final Chain Plot Random Effects-1.pdf, id=337, 429.60
+5pt x 301.125pt>
+File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
+2.2.1 Bayesian Key Assumptions Final Chain Plot Random Effects-1.pdf Graphic fi
+le (type pdf)
+<use Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2
+.2.1 Bayesian Key Assumptions Final Chain Plot Random Effects-1.pdf>
+Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
+les/figure-latex/3.2.2.1 Bayesian Key Assumptions Final Chain Plot Random Effec
+ts-1.pdf  used on input line 1839.
+(pdftex.def)             Requested size: 429.61049pt x 301.12885pt.
+[31 <./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3
+.2.2.1 Bayesian Key Assumptions Final Chain Plot Fixed Effects-1.pdf>] [32 <./O
+smia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.2.1 B
+ayesian Key Assumptions Final Chain Plot Random Effects-1.pdf>] [33] [34] [35] 
+(./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `Osmia-Apple-Orchard-Nesting-Structure-Surviv
+al-Rate.out' has not changed.
+(rerunfilecheck)             Checksum: BDA192755DB11B579D0E646B3695E7D2;3379.
+ ) 
+Here is how much of TeX's memory you used:
+ 17136 strings out of 480954
+ 300186 string characters out of 5906449
+ 669145 words of memory out of 5000000
+ 33894 multiletter control sequences out of 15000+600000
+ 480506 words of font info for 83 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 71i,13n,75p,378b,869s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mat
+hit.enc}{/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/
+lm-ts1.enc}{/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/fonts/enc/dvips/
+lm/lm-ec.enc}</Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/fonts/type1/pu
+blic/lm/lmbx10.pfb></Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/fonts/ty
+pe1/public/lm/lmbx12.pfb></Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/fo
+nts/type1/public/lm/lmbxi10.pfb></Users/batoulehyjazieii/Library/TinyTeX/texmf-
+dist/fonts/type1/public/lm/lmmi10.pfb></Users/batoulehyjazieii/Library/TinyTeX/
+texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/batoulehyjazieii/Library/Tin
+yTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/batoulehyjazieii/Librar
+y/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/batoulehyjazieii/L
+ibrary/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/batoulehyjaz
+ieii/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb></Users/batoul
+ehyjazieii/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate.pdf (35 p
+ages, 2589860 bytes).
+PDF statistics:
+ 491 PDF objects out of 1000 (max. 8388607)
+ 410 compressed objects within 5 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 235 words of extra memory for PDF output out of 10000 (max. 10000000)
+
