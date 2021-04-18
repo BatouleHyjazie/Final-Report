@@ -21,7 +21,7 @@ options(tinytex.verbose = TRUE)
 
 ## 1.1 Background
 
-Like many species around the world, pollinators are heavily affected by habitat loss, often driven by agricultural intensification, among other factors like pesticide use, disease and climate change [@potts2010]. Natural habitats provide floral and nesting resources to pollinators which are both essential to survival and growth [@roulston2011]. Ironically, while, most pollinator population declines are often attributed to agriculture, pollinators have been shown to not only enhance crop production but also, to be uniquely essential to the production of certain crops like macadamia, cantaloupe and watermelon [@klein2006]. Several studies have used artificial nesting structures, also known as trap nests or bee hotels [@geslin2020], to not only study wild bees but also, to promote their conservation in urban and agricultural settings [@macivor2015; @boyle2017]. Understanding how bees respond to their environment, and in particular, to changes in resource availability like with floral and nesting resources, can allow us to better predict their abundance and by extension their survival. Most importantly, this can aid in developping better conservation strategies in both natural and agricultural environments.
+Like many species around the world, pollinators are heavily affected by habitat loss, often driven by agricultural intensification, among other factors like pesticide use, disease and climate change [@potts2010]. Natural habitats provide floral and nesting resources to pollinators which are both essential to survival and growth [@roulston2011]. Ironically, while, most pollinator population declines are often attributed to agriculture, pollinators have been shown to not only enhance crop production but also, to be uniquely essential to the production of certain crops like macadamia, cantaloupe and watermelon [@klein2006]. Several studies have used artificial nesting structures, also known as trap nests or bee hotels [@geslin2020], to not only study wild bees but also, to promote their conservation in urban and agricultural settings [@macivor2015; @boyle2017]. Understanding how bees respond to their environment, and in particular, to changes in resource availability like with floral and nesting resources, can allow us to better predict their abundance and by extension their survival. Most importantly, this can aid in developing better conservation strategies in both natural and agricultural environments.
 
 ![Osmia Entering Nesting Structure](Osmia.png)
 
@@ -71,6 +71,7 @@ Osmia <- within(Osmia, No.death <- No.cells-No.surv.osmia)
 Osmia$Block_ID <- paste0(Osmia$s.ID, Osmia$Block)
 
 Osmia <- as.data.frame(Osmia)
+head(Osmia)
 ```
 
 The "Osmia Survival.xlsx" file contains the data that will be used for subsequent statistical analyses. It includes information such as the original number of cells observed in the straw (*No.cells*), the initial perceived number of surviving cells (*No.surv.cells*) as well as a validated revised number of surviving *Osmia* spp. cells (*No.surv.osmia*). The number of *Osmia* spp. cell deaths was calculated as the difference between the number of cells and the revised number of surviving *Osmia* spp. cells (*No.death*).
@@ -227,7 +228,7 @@ library(sjPlot)
 library(gridExtra)
 ```
 
-Following the GLMM, in ***Figure 2***, we see that orchard sites do not have a significant effect on *Osmia* spp. survival (p = 0.883) and that as a result, there is no detectable difference among survival ratios in orchard sites when compared to natural sites. This applies not only to the GLMM ouput in ***Figure 2a*** but also the means of the raw data in ***Figure 2b***.
+Following the GLMM, in ***Figure 2a***, we see that orchard sites do not have a significant effect on *Osmia* spp. survival (p = 0.883) and that as a result, there is no detectable difference among survival ratios in orchard sites when compared to natural sites. This conclusion does not only coincide with the GLMM ouput (***Figure 2a***) but can also be surmised by looking at the means and standard deviations of the raw data in ***Figure 2b***.
 
 ```{r 3.2.1.1 Frequentist Results GLMM Figure Preparation, include = FALSE}
 
@@ -290,7 +291,6 @@ In terms of model fit, when comparing the mixed effect model (GLMM) with the mod
 Osmiaglmmvm <- anova(osmiaglmm, osmiaglm)
 Osmiaglmmvm
 ```
-
 To test the effect of nesting the random effects of site and block ID on model fit, the Wald's Chi-Square test demonstrates that the nested random value causes AIC values to increase from 198.03 to 765.46. All AIC comparisons are summarized in the table below.
 
 ```{r 3.2.1.1 Key Assumptions Model Comparison, fig.cap="\\label{fig:figs}Comparison Between Tested Model Types"}
@@ -323,7 +323,7 @@ overdisp.glmer(osmiaglmmtest)
 overdisp.glmer(osmiaglmm)
 ```
 
-When taking into account the fact that the nested random effect model better matches the data-set structure and the fact that it did not have any convergence warnings or issues with under-dispersion, I will choose the nested random effect model as my final model and by focusing the remaining GLMM assumptions on this final model. Therefore, returning to the initial assumptions of a GLMM that the residuals of the random effects should be normal and homoscedastic, in ***Figure 4***, the residuals are constant throughout all levels of the random effect. Moreover, the q-q plots in ***Figure 5*** show that the nested random effects of site and block ID are appropriately normal.
+When taking into account the fact that the nested random effect model better matches the data-set structure and the fact that it did not have any convergence warnings or issues with under-dispersion, I will choose the nested random effect model as my final model and focus the remaining GLMM assumptions on this final model. Therefore, returning to the initial assumptions of a GLMM that the residuals of the random effects should be normal and homoscedastic, in ***Figure 4***, the residuals are constant throughout all levels of the random effect. Moreover, the q-q plots in ***Figure 5*** show that the nested random effects of site and block ID are appropriately normal.
 
 ```{r 3.2.1.1 Key Assumptions Residual Plot, fig.cap="\\label{fig:figs}Residuals versus Fitted Values of Final Osmia Survival Model"}
 
@@ -448,7 +448,7 @@ autocorr.diag(osmiabayesfinal$VCV)
 
 ## 4.1 Summary
 
-Based on the data collected and subsequent statistical analyses, I can conclude that there is no evidence of a difference between the survival ratio of *Osmia* spp. in orchard and natural sites. This is evident when simply looking at the raw *Osmia* spp. survival ratios in natural versus orchard sites (***Figure 3b***). When correcting for differences in sites (s.ID) and blocks (Block_ID) in order to account for any noise or variation in the data, this lack of a difference among site types is still prevalent (***Figure*** ***3a***).
+Based on the data collected and subsequent frequentist and bayesian statistical analyses, I can conclude that there is no evidence of a difference between the survival ratio of *Osmia* spp. in orchard and natural sites. This is evident when simply looking at the raw *Osmia* spp. survival ratios in natural versus orchard sites (***Figure 3b***). When correcting for differences in sites (s.ID) and blocks (Block_ID) in order to account for any noise or variation in the data, this lack of a difference among site types is still prevalent (***Figure*** ***3a***).
 
 However, these conclusions do not take into account the wider implications of land-use change on pollinators. For instance, species richness has been shown to be heavily influenced by percent agriculture, orchard size and most notably, sampling effort [@russo2015]. Even though *Osmia* spp. survival rates in orchards have not been shown to differ from natural sites in my analysis, habitat loss due to agricultural intensification is still of major concern in the declines of native bee populations [@kline2020].
 
@@ -478,12 +478,12 @@ When it comes to a critique of the data, it would have been informative to have 
 
 ## 4.4 Future Directions
 
-In the future, it would be useful to rerun this experiment with a larger sample size to address the issue with power. By extension, it would also be interesting to collect some information on *Osmia* spp. survival in urban and suburban habitats in addition to both natural and agricultural habitats since data on *Osmia* spp. populations in these human-dominant landscapes is scarce. Cross-referencing the likelihood of *Osmia* spp. survival in these different habitats can help with re-evaluating the usefulness of installing these nesting structures in these different habitat types from a conservation perspective. For instance, if mortality rates are high in suburban landscapes when compared to natural landscapes, nesting structures may be better suited to orchard landscapes where larval mortality has not been shown to differ from natural areas.
+In the future, it would be interesting to expand observations to include other bee and wasp genera and to document their survival. In addition, while logistically complicated, since it would involve extensive and detailed monitoring of nesting structures throughout the growing season, documenting and comparing the successful attainment of key developmental stages such as hatching, pupation and eclosion across landscape types could be an interesting extension to this question on successful *Osmia* spp. reproduction in anthropogenic environments.
 
-Moreover, it would be interesting to expand observations to include other bee and wasp genera and to document their survival. In addition, while logistically complicated, since it would involve extensive and detailed monitoring of nesting structures throughout the growing season, documenting and comparing the successful attainment of key developmental stages such as hatching, pupation and eclosion across landscape types could be an interesting extension to this question on successful *Osmia* spp. reproduction in anthropogenic environments.
+Moreover, it would be useful to rerun this experiment with a larger sample size to address the issue with power. By extension, it would also be interesting to collect some information on *Osmia* spp. survival in urban and suburban habitats in addition to both natural and agricultural habitats since data on *Osmia* spp. populations in these human-dominant landscapes is scarce. Cross-referencing the likelihood of *Osmia* spp. survival in these different habitats can help with re-evaluating the usefulness of installing these nesting structures in these different habitat types from a conservation perspective. For instance, if mortality rates are high in suburban landscapes when compared to natural landscapes, nesting structures may be better suited to orchard landscapes where larval mortality has not been shown to differ from natural areas.
 
 # Data Availability Statement
 
-All data is available in the **Final Report** [**GitHub Repository**](https://github.com/BatouleHyjazie/Final-Report.git).
+All data, code and related figures are available in the **Final Report** [**GitHub Repository**](https://github.com/BatouleHyjazie/Final-Report.git).
 
 # References

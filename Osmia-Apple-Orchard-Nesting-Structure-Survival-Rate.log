@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  17 APR 2021 19:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  18 APR 2021 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -928,7 +928,12 @@ Package pdftex.def Info: Osmia.png  used on input line 193.
 [1
 
 {/Users/batoulehyjazieii/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdft
-ex.map}] [2 <./Osmia.png>] [3]
+ex.map}] [2 <./Osmia.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+72.
+(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [3]
 <Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/2.2 Sta
 tistical Methods Normality-1.pdf, id=128, 437.635pt x 286.06876pt>
 File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/2.
@@ -936,27 +941,23 @@ File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/2.
 <use Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/2.2
  Statistical Methods Normality-1.pdf>
 Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
-les/figure-latex/2.2 Statistical Methods Normality-1.pdf  used on input line 31
-1.
+les/figure-latex/2.2 Statistical Methods Normality-1.pdf  used on input line 33
+5.
 (pdftex.def)             Requested size: 437.6406pt x 286.07242pt.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-23.
-(/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [4 <./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/
-2.2 Statistical Methods Normality-1.pdf>] [5] [6]
+[4 <./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/2.
+2 Statistical Methods Normality-1.pdf>] [5] [6] [7]
 <Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.1.1
- Frequentist Results GLMM Figure-1.pdf, id=157, 463.7325pt x 315.1775pt>
+ Frequentist Results GLMM Figure-1.pdf, id=166, 463.7325pt x 315.1775pt>
 File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
 2.1.1 Frequentist Results GLMM Figure-1.pdf Graphic file (type pdf)
 <use Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2
 .1.1 Frequentist Results GLMM Figure-1.pdf>
 Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
 les/figure-latex/3.2.1.1 Frequentist Results GLMM Figure-1.pdf  used on input l
-ine 532.
+ine 558.
 (pdftex.def)             Requested size: 463.73842pt x 315.18153pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
-35.
+61.
 (/Users/batoulehyjazieii/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -975,8 +976,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7] [8 <./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-late
-x/3.2.1.1 Frequentist Results GLMM Figure-1.pdf>] [9] [10]
+[8 <./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
+2.1.1 Frequentist Results GLMM Figure-1.pdf>] [9] [10]
 <Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.1.1
  Key Assumptions Residual Plot-1.pdf, id=201, 436.63126pt x 251.94125pt>
 File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
@@ -985,7 +986,7 @@ File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
 .1.1 Key Assumptions Residual Plot-1.pdf>
 Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
 les/figure-latex/3.2.1.1 Key Assumptions Residual Plot-1.pdf  used on input lin
-e 851.
+e 877.
 (pdftex.def)             Requested size: 436.63019pt x 251.94063pt.
 <Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.1.1
  Key Assumptions Random Effects Q-Q Plot-1.pdf, id=202, 463.7325pt x 316.18124p
@@ -996,15 +997,15 @@ File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
 .1.1 Key Assumptions Random Effects Q-Q Plot-1.pdf>
 Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
 les/figure-latex/3.2.1.1 Key Assumptions Random Effects Q-Q Plot-1.pdf  used on
- input line 858.
+ input line 884.
 (pdftex.def)             Requested size: 463.73842pt x 316.18529pt.
 [11] [12 <./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-la
 tex/3.2.1.1 Key Assumptions Residual Plot-1.pdf> <./Osmia-Apple-Orchard-Nesting
 -Structure-Survival-Rate_files/figure-latex/3.2.1.1 Key Assumptions Random Effe
 cts Q-Q Plot-1.pdf>]
 <Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.2 B
-ayesian Results Inference Figure Using RStan-1.pdf, id=229, 458.71375pt x 315.1
-775pt>
+ayesian Results Inference Figure Using RStan-1.pdf, id=229, 459.7175pt x 315.17
+75pt>
 File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
 2.2 Bayesian Results Inference Figure Using RStan-1.pdf Graphic file (type pdf)
 
@@ -1012,8 +1013,8 @@ File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
 .2 Bayesian Results Inference Figure Using RStan-1.pdf>
 Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
 les/figure-latex/3.2.2 Bayesian Results Inference Figure Using RStan-1.pdf  use
-d on input line 889.
-(pdftex.def)             Requested size: 458.73363pt x 315.19115pt.
+d on input line 915.
+(pdftex.def)             Requested size: 459.74442pt x 315.19595pt.
 <Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.2.1
  Bayesian Key Assumptions Initial Chain Plot Fixed Effects-1.pdf, id=230, 418.5
 6375pt x 293.095pt>
@@ -1024,11 +1025,11 @@ ile (type pdf)
 .2.1 Bayesian Key Assumptions Initial Chain Plot Fixed Effects-1.pdf>
 Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
 les/figure-latex/3.2.2.1 Bayesian Key Assumptions Initial Chain Plot Fixed Effe
-cts-1.pdf  used on input line 910.
+cts-1.pdf  used on input line 936.
 (pdftex.def)             Requested size: 418.56271pt x 293.09427pt.
 <Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.2.1
- Bayesian Key Assumptions Initial Chain Plot Random Effects-1.pdf, id=231, 433.
-62pt x 301.125pt>
+ Bayesian Key Assumptions Initial Chain Plot Random Effects-1.pdf, id=231, 429.
+605pt x 301.125pt>
 File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
 2.2.1 Bayesian Key Assumptions Initial Chain Plot Random Effects-1.pdf Graphic 
 file (type pdf)
@@ -1036,8 +1037,8 @@ file (type pdf)
 .2.1 Bayesian Key Assumptions Initial Chain Plot Random Effects-1.pdf>
 Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
 les/figure-latex/3.2.2.1 Bayesian Key Assumptions Initial Chain Plot Random Eff
-ects-1.pdf  used on input line 917.
-(pdftex.def)             Requested size: 433.63878pt x 301.13803pt.
+ects-1.pdf  used on input line 943.
+(pdftex.def)             Requested size: 429.61049pt x 301.12885pt.
 [13 <./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3
 .2.2 Bayesian Results Inference Figure Using RStan-1.pdf>] [14 <./Osmia-Apple-O
 rchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.2.1 Bayesian Key 
@@ -1045,8 +1046,8 @@ Assumptions Initial Chain Plot Fixed Effects-1.pdf> <./Osmia-Apple-Orchard-Nest
 ing-Structure-Survival-Rate_files/figure-latex/3.2.2.1 Bayesian Key Assumptions
  Initial Chain Plot Random Effects-1.pdf>]
 <Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.2.1
- Bayesian Key Assumptions Final Chain Plot Fixed Effects-1.pdf, id=270, 419.567
-5pt x 293.095pt>
+ Bayesian Key Assumptions Final Chain Plot Fixed Effects-1.pdf, id=270, 418.563
+75pt x 293.095pt>
 File: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.
 2.2.1 Bayesian Key Assumptions Final Chain Plot Fixed Effects-1.pdf Graphic fil
 e (type pdf)
@@ -1054,8 +1055,8 @@ e (type pdf)
 .2.1 Bayesian Key Assumptions Final Chain Plot Fixed Effects-1.pdf>
 Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
 les/figure-latex/3.2.2.1 Bayesian Key Assumptions Final Chain Plot Fixed Effect
-s-1.pdf  used on input line 974.
-(pdftex.def)             Requested size: 419.56647pt x 293.09427pt.
+s-1.pdf  used on input line 1000.
+(pdftex.def)             Requested size: 418.56271pt x 293.09427pt.
 <Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3.2.2.1
  Bayesian Key Assumptions Final Chain Plot Random Effects-1.pdf, id=271, 429.60
 5pt x 301.125pt>
@@ -1066,7 +1067,7 @@ le (type pdf)
 .2.1 Bayesian Key Assumptions Final Chain Plot Random Effects-1.pdf>
 Package pdftex.def Info: Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_fi
 les/figure-latex/3.2.2.1 Bayesian Key Assumptions Final Chain Plot Random Effec
-ts-1.pdf  used on input line 981.
+ts-1.pdf  used on input line 1007.
 (pdftex.def)             Requested size: 429.61049pt x 301.12885pt.
 [15 <./Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate_files/figure-latex/3
 .2.2.1 Bayesian Key Assumptions Final Chain Plot Fixed Effects-1.pdf>] [16 <./O
@@ -1103,7 +1104,7 @@ ibrary/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/batoulehyjaz
 ieii/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb></Users/batoul
 ehyjazieii/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
 Output written on Osmia-Apple-Orchard-Nesting-Structure-Survival-Rate.pdf (19 p
-ages, 2579215 bytes).
+ages, 2571391 bytes).
 PDF statistics:
  424 PDF objects out of 1000 (max. 8388607)
  360 compressed objects within 4 object streams
