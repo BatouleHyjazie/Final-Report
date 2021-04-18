@@ -61,11 +61,13 @@ library(readxl)
 Osmia <- read_excel("Osmia Survival.xlsx")
 Osmia <- as.data.frame(Osmia)
 
+# Calculate Osmia spp. survival ratio and add it as as column
 Osmia <- within(Osmia, surv.ratio <- No.surv.osmia / No.cells)
-Osmia <- within(Osmia, No.death <- No.cells-No.surv.osmia)
-Osmia <- within(Osmia, death.ratio <- No.death/No.cells)
 
-Osmia$Hole_ID <- paste0(Osmia$s.ID, Osmia$Hole)
+# Calculate estimated number of Osmia spp. deaths and add it as as column
+Osmia <- within(Osmia, No.death <- No.cells-No.surv.osmia)
+
+# Give a unique identifier to Block_ID and add it as as column
 Osmia$Block_ID <- paste0(Osmia$s.ID, Osmia$Block)
 
 Osmia <- as.data.frame(Osmia)
